@@ -93,12 +93,6 @@ td {
   border: 1px solid #bbdefb;
 }
 
-.alerta-sucesso {
-  background-color: #e8f5e9;
-  color: #1b5e20;
-  border: 1px solid #c8e6c9;
-}
-
 /* 5. Seletores de ID e imagem de fundo */
 .bg-imagem {
   background-repeat: no-repeat;
