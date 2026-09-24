@@ -1,8 +1,11 @@
+/* 1. Reset universal */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+/* 2. Tipografia e esqueleto da página (seletores de tag) */
 body {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.6;
@@ -51,6 +54,13 @@ section {
   border-radius: 4px;
 }
 
+/* 3. Seletores agrupados (seletores compartilhados) */
+h2,
+h3 {
+  color: #4a3525;
+  margin-bottom: 1rem;
+}
+
 table,
 th,
 td {
@@ -58,6 +68,8 @@ td {
   border-collapse: collapse;
   padding: 0.5rem 1rem;
 }
+
+/* 4. Componentes e classes reutilizáveis */
 .card {
   border: 1px solid #e0e0e0;
   padding: 1rem;
@@ -87,6 +99,7 @@ td {
   border: 1px solid #c8e6c9;
 }
 
+/* 5. Seletores de ID e imagem de fundo (classe + ID) */
 .bg-imagem {
   background-repeat: no-repeat;
   background-position: center center;
@@ -112,9 +125,4 @@ td {
 #formulario-contato label {
   display: block;
   margin-bottom: 0.25rem;
-}
-h2,
-h3 {
-  color: #4a3525;
-  margin-bottom: 1rem;
 }
