@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-/* 2. Tipografia e esqueleto da página (seletores de tag) */
+/* 2. Tipografia */
 body {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.6;
@@ -99,7 +99,7 @@ td {
   border: 1px solid #c8e6c9;
 }
 
-/* 5. Seletores de ID e imagem de fundo (classe + ID) */
+/* 5. Seletores de ID e imagem de fundo */
 .bg-imagem {
   background-repeat: no-repeat;
   background-position: center center;
